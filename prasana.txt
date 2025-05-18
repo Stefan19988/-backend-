@@ -1,0 +1,44 @@
+1. world wide web:
+e mreza na veb stranici dostapni preky internet 
+
+2. preky http se isprakat dve tipovi na poraki:
+request , response 
+
+request go ispraka klientot do serverot 
+a 
+response go vraka serverot kako odgovor na baraneto
+
+3. node.js e platforma sto ovozmozuva izvrsuvane na javascript na server,
+a express.js e lesen frejmvork za pravene serveri i api vo node.js
+
+4. mvc znaci model-view-controller ima tri glavni delovi:
+
+
+1.model: model raboti so podatoci
+
+2.view: view go prikazuva interfejsot
+
+3.controller: controller upravuva so logika i barana.
+
+5.ruti se pateki sto povrzuvaat url so funkcija vo serverot.
+
+6.moduli se delovi od kod sto mozat da se koristat povtorno,
+tipovi:
+
+core, vgradeni
+
+third party, od npm
+
+custom, sopstveni 
+
+7. veb servis e aplikacija sto razmenuva podatoci preky internet.
+primer: api za vremenska prognoza .
+
+8.JWT avtenkacija koristi token za da potvrdi korisnik, korisnikot se logira togas serverot vraka JWT token klientot go togas go praka so sekoe barane serverot go proveruva tokenot i togas dozvoluva pristap
+
+9. mongo db e NoSQL baza sto cuva podatoci kako dokmenti namesto tabeli i se koristi za fleksibilno i brzo kladirane
+
+10.MongoDB e samata baza na podatoci a Mogooze e alatka za polesna rabota so mongodb vo node.js 
+
+11. sinxrona funkcija se izvrsuva po red i go blokira kodot
+a asinxrona funkcija ne go blokira kodot i ovozmozuva paralelno izvrsuvane 
