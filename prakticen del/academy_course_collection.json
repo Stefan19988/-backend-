@@ -1,0 +1,184 @@
+{
+  "info": {
+    "name": "Academy & Courses API",
+    "_postman_id": "12345678-1234-1234-1234-1234567890ab",
+    "description": "Collection for testing academy and course endpoints",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Add Academy - Brainster Academy",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Brainster Academy\",\n  \"address\": \"Skopje\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:5000/api/academies",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "academies"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Add Academy - Code Academy",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Code Academy\",\n  \"address\": \"Bitola\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:5000/api/academies",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "academies"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Add Academy - Creative Hub",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Creative Hub\",\n  \"address\": \"Ohrid\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:5000/api/academies",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "academies"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Add Course - Full Stack Development",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Full Stack Development\",\n  \"address\": \"Online\",\n  \"field\": \"Programming\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:5000/api/courses",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "courses"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Add Course - Data Science Bootcamp",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Data Science Bootcamp\",\n  \"address\": \"Skopje\",\n  \"field\": \"Data Science\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:5000/api/courses",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "courses"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Add Course - UX/UI Design",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"UX/UI Design\",\n  \"address\": \"Bitola\",\n  \"field\": \"Design\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:5000/api/courses",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "courses"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
